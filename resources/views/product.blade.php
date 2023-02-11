@@ -3,7 +3,7 @@
  @endsection
  @section('content')
      <!--====== SLIDER PART START ======-->
-    
+
      <section id="home" class="slider-area pt-100">
         <div class="container-fluid position-relative">
             <div class="slider-active">
@@ -86,11 +86,11 @@
             </div>
         </div> <!-- container fluid -->
     </section>
-    
+
     <!--====== SLIDER PART ENDS ======-->
-   
+
     <!--====== DISCOUNT PRODUCT PART START ======-->
-    
+
     <section id="discount-product" class="discount-product pt-100">
         <div class="container">
             <div class="row">
@@ -119,11 +119,11 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== DISCOUNT PRODUCT PART ENDS ======-->
-   
+
     <!--====== PRODUCT PART START ======-->
-    
+
     <section id="product" class="product-area pt-100 pb-130">
         <div class="container">
             <div class="row">
@@ -132,13 +132,13 @@
                         <h4 class="collection-tilte">OUR COLLECTION</h4>
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="active" id="v-pills-furniture-tab" data-toggle="pill" href="#v-pills-furniture" role="tab" aria-controls="v-pills-furniture" aria-selected="true">Furniture</a>
-                            
+
                             <a id="v-pills-decorative-tab" data-toggle="pill" href="#v-pills-decorative" role="tab" aria-controls="v-pills-decorative" aria-selected="false">Decorative</a>
-                            
+
                             <a id="v-pills-lighting-tab" data-toggle="pill" href="#v-pills-lighting" role="tab" aria-controls="v-pills-lighting" aria-selected="false">Lighting</a>
-                            
+
                             <a id="v-pills-outdoor-tab" data-toggle="pill" href="#v-pills-outdoor" role="tab" aria-controls="v-pills-outdoor" aria-selected="false">Outdoor</a>
-                            
+
                             <a id="v-pills-storage-tab" data-toggle="pill" href="#v-pills-storage" role="tab" aria-controls="v-pills-storage" aria-selected="false">Storage</a>
                         </div> <!-- nav -->
                     </div> <!-- collection menu -->
@@ -171,12 +171,12 @@
                                                     </ul>
                                                     <span class="regular-price">{{$product->sale_price}}</span>
                                                     <span class="discount-price">{{$product->price}}</span>
-                                                    
+
                                                     <add-to-cart-button product-id="{{$product->id}}"
                                                         user-id="{{auth()->user()->id ?? 0}}"
                                                     />
                                                 </div>
-                                               
+
                                             </div> <!-- single product items -->
                                         </div>
                                         @endforeach
@@ -204,8 +204,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -225,8 +225,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -246,8 +246,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -256,7 +256,7 @@
                                             <div class="product-item-image">
                                                 <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
                                                 <div class="product-discount-tag">
-                                                    <p>-60%</p>
+                                                    <p>-10%</p>
                                                 </div>
                                             </div>
                                             <div class="product-item-content text-center mt-30">
@@ -267,8 +267,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -288,8 +288,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -305,7 +305,7 @@
                                             <div class="product-item-image">
                                                 <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
                                                 <div class="product-discount-tag">
-                                                    <p>-60%</p>
+                                                    <p>-30%</p>
                                                 </div>
                                             </div>
                                             <div class="product-item-content text-center mt-30">
@@ -316,8 +316,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -337,8 +337,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -358,8 +358,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -379,8 +379,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -400,8 +400,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -428,8 +428,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -449,8 +449,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -470,8 +470,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -491,8 +491,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -512,8 +512,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -540,8 +540,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -561,8 +561,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -582,8 +582,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -603,8 +603,8 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
@@ -624,24 +624,24 @@
                                                     <li><i class="lni-star-filled"></i></li>
                                                     <li><i class="lni-star-filled"></i></li>
                                                 </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
+                                                <span class="regular-price">£59.00</span>
+                                                <span class="discount-price">£69.00</span>
                                             </div>
                                         </div> <!-- single product items -->
                                     </div>
                                 </div> <!-- row -->
                             </div> <!-- product items -->
                         </div> <!-- tab pane -->
-                    </div> <!-- tab content --> 
+                    </div> <!-- tab content -->
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== PRODUCT PART ENDS ======-->
 
     <!--====== SERVICES PART START ======-->
-    
+
     <section id="service" class="services-area pt-125 pb-130">
         <div class="container">
             <div class="row">
@@ -663,7 +663,7 @@
                     </div> <!-- services left -->
                 </div>
                 <div class="col-lg-6">
-                    
+
                     <div class="services-right mt-45">
                         <div class="row justify-content-center">
                             <div class="col-md-6 col-sm-8">
@@ -676,7 +676,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor.</p>
                                     </div>
                                 </div> <!-- single services -->
-                                
+
                                 <div class="single-services text-center mt-30">
                                     <div class="services-icon">
                                         <i class="lni-ruler-pencil"></i>
@@ -697,7 +697,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor.</p>
                                     </div>
                                 </div> <!-- single services -->
-                                
+
                                 <div class="single-services text-center mt-30">
                                     <div class="services-icon">
                                         <i class="lni-support"></i>
@@ -714,11 +714,11 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== SERVICES PART ENDS ======-->
 
     <!--====== SHOWCASE PART START ======-->
-    
+
     <section id="showcase" class="showcase-area pt-100 pb-130">
         <div class="container">
             <div class="row">
@@ -726,7 +726,7 @@
                     <div class="showcase-title pt-25">
                         <h2 class="title">Showcase</h2>
                     </div> <!-- showcase title -->
-                </div> 
+                </div>
                 <div class="col-lg-6">
                     <div class="showcase-title pt-25">
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo.</p>
@@ -749,11 +749,11 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== SHOWCASE PART ENDS ======-->
 
     <!--====== TEAM PART START ======-->
-    
+
     <section id="team" class="team-area pt-125 pb-130">
         <div class="container">
             <div class="row justify-content-center">
@@ -772,7 +772,7 @@
                              alt="Team">
                         </div>
                         <div class="team-content mt-30">
-                            <h4 class="title mb-10"><a href="#">Celina Gomez</a></h4>
+                            <h4 class="title mb-10"><a href="#">Celina Corina</a></h4>
                             <span>FOUNDER</span>
                             <ul class="social mt-15">
                                 <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
@@ -789,7 +789,7 @@
                              alt="Team">
                         </div>
                         <div class="team-content mt-30">
-                            <h4 class="title mb-10"><a href="#">Patric Green</a></h4>
+                            <h4 class="title mb-10"><a href="#">Patric Alem</a></h4>
                             <span>Consultant</span>
                             <ul class="social mt-15">
                                 <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
@@ -806,7 +806,7 @@
                              alt="Team">
                         </div>
                         <div class="team-content mt-30">
-                            <h4 class="title mb-10"><a href="#">Mark Parker</a></h4>
+                            <h4 class="title mb-10"><a href="#">Marco Parker</a></h4>
                             <span>Business Manager</span>
                             <ul class="social mt-15">
                                 <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
@@ -836,11 +836,11 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== TEAM PART ENDS ======-->
 
     <!--====== TESTIMONIAL PART START ======-->
-    
+
     <section id="testimonial" class="testimonial-area pt-200">
         <div class="testimonial-bg bg_cover" style="background-image: url(assets/images/testimonial/ts-bg.jpg)"></div>
         <div class="container">
@@ -871,11 +871,11 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== TESTIMONIAL PART ENDS ======-->
 
     <!--======  BLOG PART START ======-->
-    
+
     <section id="blog" class="blog-area pt-125">
         <div class="container">
             <div class="row justify-content-center">
@@ -895,7 +895,7 @@
                         <div class="blog-content">
                             <div class="content">
                                 <h4 class="title"><a href="#">Rowan an orangutan known  & loved</a></h4>
-                                <span>25 JULY, 2022</span>
+                                <span>25 JULY, 2023</span>
                             </div>
                             <div class="meta d-flex justify-content-between align-items-center">
                                 <div class="meta-admin d-flex align-items-center">
@@ -924,7 +924,7 @@
                         <div class="blog-content">
                             <div class="content">
                                 <h4 class="title"><a href="#">Rowan an orangutan known  & loved</a></h4>
-                                <span>25 JULY, 2022</span>
+                                <span>25 JULY, 2023</span>
                             </div>
                             <div class="meta d-flex justify-content-between align-items-center">
                                 <div class="meta-admin d-flex align-items-center">
@@ -953,7 +953,7 @@
                         <div class="blog-content">
                             <div class="content">
                                 <h4 class="title"><a href="#">Rowan an orangutan known  & loved</a></h4>
-                                <span>25 JULY, 2022</span>
+                                <span>25 JULY, 2023</span>
                             </div>
                             <div class="meta d-flex justify-content-between align-items-center">
                                 <div class="meta-admin d-flex align-items-center">
@@ -961,7 +961,7 @@
                                         <a href="#"><img src="assets/images/blog/admin.jpg" alt="Admin"></a>
                                     </div>
                                     <div class="admin-title">
-                                        <h6 class="title"><a href="#">J. PARKER</a></h6>
+                                        <h6 class="title"><a href="#">C. Danescu</a></h6>
                                     </div>
                                 </div>  <!-- meta admin -->
                                 <div class="meta-icon">
@@ -977,11 +977,11 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    
+
     <!--======  BLOG PART ENDS ======-->
 
     <!--====== CONTACT PART START ======-->
-    
+
     <section id="contact" class="contact-area pt-115">
         <div class="container">
             <div class="row justify-content-center">
@@ -1003,7 +1003,7 @@
                                             <i class="lni-phone-handset"></i>
                                         </div>
                                         <div class="info-content">
-                                            <p>+88 1234 56789</p>
+                                            <p>+44 1234 56789</p>
                                         </div>
                                     </div> <!-- single info -->
                                 </li>
@@ -1023,13 +1023,13 @@
                                             <i class="lni-home"></i>
                                         </div>
                                         <div class="info-content">
-                                            <p>203, Envato Labs, Behind Alis Steet,Australia</p>
+                                            <p>Cristina -Birmingham (Uk)</p>
                                         </div>
                                     </div> <!-- single info -->
                                 </li>
                             </ul>
                         </div> <!-- contact info -->
-                    </div> 
+                    </div>
                     <div class="col-lg-8">
                         <div class="contact-form">
                             <form id="contact-form" action="assets/contact.php" method="post" data-toggle="validator">
@@ -1061,16 +1061,16 @@
                                 </div> <!-- row -->
                             </form>
                         </div> <!-- row -->
-                    </div> 
+                    </div>
                 </div> <!-- row -->
             </div> <!-- contact box -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== CONTACT PART ENDS ======-->
 
     <!--====== FOOTER PART START ======-->
-    
+
     <section id="footer" class="footer-area">
         <div class="container">
             <div class="footer-widget pt-75 pb-120">
@@ -1120,8 +1120,8 @@
                                     <div class="single-footer-info mt-20">
                                         <span>Phone :</span>
                                         <div class="footer-info-content">
-                                            <p>+88123 4567 890</p>
-                                            <p>+88123 4567 890</p>
+                                            <p>+0044123 4567 890</p>
+                                            <p>+0044123 4567 890</p>
                                         </div>
                                     </div> <!-- single footer info -->
                                 </li>
@@ -1138,7 +1138,7 @@
                                     <div class="single-footer-info mt-20">
                                         <span>Address :</span>
                                         <div class="footer-info-content">
-                                            <p>5078 Jensen Key, Port Kaya, WV 73505</p>
+                                            <p>160559 Birmingham (Uk)</p>
                                         </div>
                                     </div> <!-- single footer info -->
                                 </li>
@@ -1151,25 +1151,24 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright text-center">
-                            <p>Crafted by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                            <p>Crafted by <a href="https://uideck.com" rel="nofollow">Cristina</a></p>
                         </div> <!-- copyright -->
                     </div>
                 </div> <!-- row -->
             </div> <!--  footer copyright -->
         </div> <!-- container -->
     </section>
-    
+
     <!--====== FOOTER PART ENDS ======-->
-    
+
     <!--====== BACK TO TOP PART START ======-->
-    
+
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
-    
+
     <!--====== BACK TO TOP PART ENDS ======-->
- 
+
  @endsection
 
  @section('scripts')
 
  @endsection
-   
